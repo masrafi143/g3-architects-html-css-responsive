@@ -63,3 +63,32 @@ nav, .banner{
     width: 100%;
     border-radius: 10px;
 }
+/* team section */
+.teams{
+    display: flex;
+    align-items: center;
+    margin: 50px 80px;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-images img{
+    width: 300px;
+    height: 300px;
+}
+.our-features{
+    margin-left: 70px;
+    max-width: 500px;
+}
+.our-features h3{
+    font-weight: bold;
+    font-size: 45px;
+}
+#quick-list{
+    color: #727272;
+}
+#features{
+    color: #FF900E;
+}
